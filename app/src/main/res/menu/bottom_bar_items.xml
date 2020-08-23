@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+        <item
+            android:id="@+id/add_image"
+            android:title="@string/add_image"
+            app:showAsAction="always"
+            app:iconTint="?attr/TintColor"
+            android:icon="@drawable/add_image_24"
+            />
+        <item
+            android:id="@+id/add_record"
+            android:title="@string/add_record"
+            app:showAsAction="always"
+            app:iconTint="?attr/TintColor"
+            android:icon="@drawable/ic_baseline_mic_none_24"
+            />
+        <item
+            android:id="@+id/add_url"
+            android:title="@string/add_url"
+            app:showAsAction="always"
+            app:iconTint="?attr/TintColor"
+            android:icon="@drawable/url_24"
+            />
+</menu>

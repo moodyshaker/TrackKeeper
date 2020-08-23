@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minWidth="350dp"
+    android:background="@drawable/corner_radius_dialog"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_20">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/margin_8">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/url_input_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/DialogColors"
+            android:gravity="center_vertical"
+            android:padding="@dimen/margin_10">
+
+            <EditText
+                android:id="@+id/url_et"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:hint="Enter Web Url" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_20"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/add_url_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add"
+            android:textColor="?attr/DialogColors"
+            android:textSize="@dimen/margin_20"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/cancel_url_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_20"
+            android:text="@string/cancel"
+            android:textColor="?attr/DialogColors"
+            android:textSize="@dimen/margin_20"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

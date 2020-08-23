@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <solid android:color="@color/floating_action_button_yellow_color" />
+
+    <stroke
+        android:width="2sp"
+        android:color="@color/white" />
+    <padding
+        android:bottom="2sp"
+        android:left="2sp"
+        android:right="2sp"
+        android:top="2sp" />
+</shape>
